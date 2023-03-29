@@ -1,0 +1,27 @@
+@import "./reset.css";
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 70px;
+}
+.my_profile-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 20px;
+  padding: 20px;
+}

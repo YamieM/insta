@@ -1,0 +1,12 @@
+.feed-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 150px;
+  width: 99vw;
+  @media (max-width: 1115px) {
+    justify-content: center;
+  }
+}

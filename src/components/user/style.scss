@@ -1,0 +1,26 @@
+.user-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-photo {
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgb(201, 46, 140);
+  object-fit: cover;
+  border-radius: 100%;
+  @media (max-width: 1115px) {
+    width: 50px;
+    height: 50px;
+  }
+}
+.user-name {
+  font-size: 18px;
+}
+
+.user-link {
+  text-decoration: none;
+  color: black;
+}

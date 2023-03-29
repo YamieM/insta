@@ -1,0 +1,60 @@
+{
+    "posts": [
+        {
+            "name": "jessy_john",
+            "altname": "Jessy",
+            "photo": "https://img.freepik.com/free-photo/cute-puppy-of-maltipoo-dog-posing-isolated-over-white-background_155003-46004.jpg?size=626&ext=jpg",
+            "src": "https://img.freepik.com/free-photo/charming-yellow-house-with-wooden-windows-and-green-grassy-garden_181624-8074.jpg",
+            "alt": "Nature",
+            "descr": "This is so perfect! Amazing nature!",
+            "id": "1"
+        },
+        {
+            "name": "abracham_mvp",
+            "altname": "Abby",
+            "photo": "https://img.freepik.com/free-photo/close-up-portrait-of-young-female-brunette-student-girl-with-bun-hairstyle-and-baked-shoulders-looking-aside-with-calm-face-expression-touching-jawline-with-fingers_176420-10738.jpg",
+            "src": "https://img.freepik.com/free-photo/red-chureito-pagoda-in-japan-with-mount-fuji-behind_181624-4668.jpg",
+            "alt": "Photo",
+            "descr": "Красиво жить не запретишь 💁",
+            "id": "2"
+        },
+        {
+            "name": "petrychenko_lemon",
+            "altname": "Lemon",
+            "photo": "https://img.freepik.com/free-photo/lemon_1205-1668.jpg",
+            "src": "https://img.freepik.com/free-photo/delicious-pieces-of-cheese_144627-43352.jpg",
+            "alt": "Tech photo",
+            "descr": "Cheese - my life 🥴",
+            "id": "3"
+        },
+        {
+            "name": "real_eggs",
+            "altname": "eggs",
+            "photo": "https://img.freepik.com/free-photo/delivery-man-with-package-on-shoulder_23-2148590745.jpg?size=338&ext=jpg",
+            "src": "https://img.freepik.com/free-photo/interested-woman-posing-in-sunglasses_197531-13203.jpg?size=626&ext=jpg",
+            "alt": "My world",
+            "descr": "Когда она узнала, что в посылке...",
+            "id": "4"
+        },
+        {
+            "name": "busy_man",
+            "altname": "Kate",
+            "photo": "https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg",
+            "src": "https://img.freepik.com/free-photo/different-types-of-bread-made-from-wheat-flour_140725-5648.jpg?size=626&ext=jpg",
+            "alt": "Lake",
+            "descr": "Люблю хлеб",
+            "id": "5"
+        },
+        {
+            "name": "smoothiemaker",
+            "altname": "Smoothie",
+            "photo": "https://img.freepik.com/free-photo/portrait-of-happy-lady-in-sunglasses-standing-with-colorful-shopping-bags-in-hands-on-over-pink-background-young-woman-standing-in-white-shirt-and-denim-shorts_574295-1182.jpg",
+            "src": "https://img.freepik.com/free-photo/modern-kitchen-interior-in-white-colors_181624-58451.jpg",
+            "alt": "Smoothie",
+            "descr": "Моя новая кухня",
+            "id": "6"
+        }
+        
+        
+    ]
+}
