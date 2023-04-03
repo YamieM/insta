@@ -9,7 +9,9 @@ export const Feed = () => {
   //или можно сразу useState(data.posts)
 
   useEffect(() => {
-    setPosts(data.posts);
+    if (data) {
+      setPosts(data.posts);
+    } 
   }, []);
 
   return (
