@@ -1,23 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import data from "../../posts.json";
 import { Posts } from "../posts";
 import { Users } from "../users";
 import "./style.scss";
 
-export class Feed extends React.Component {
-  state = {
-    posts: data,
-    isLoading: false,
-  };
+export const Feed = () => {
+  const [posts, setPosts] = useState([]);
+  //или можно сразу useState(data.posts)
 
-  render() {
-    const { posts } = this.state.posts;
+  useEffect(() => {
+    setPosts(data.posts);
+  }, []);
 
-    return (
-      <main className="feed-container">
-        <Posts posts={posts} />
-        <Users posts={posts} />
-      </main>
-    );
-  }
-}
+  return (
+    <main className="feed-container">
+      <Posts posts={posts} />
+      <Users posts={posts} />
+    </main>
+  );
+};
