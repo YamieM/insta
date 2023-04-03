@@ -1,10 +1,10 @@
 import React from "react";
 import data from "../../posts.json";
-import Posts from "../posts/Posts";
-import Users from "../users/Users";
+import { Posts } from "../posts";
+import { Users } from "../users";
 import "./style.scss";
 
-export default class Feed extends React.Component {
+export class Feed extends React.Component {
   state = {
     posts: data,
     isLoading: false,

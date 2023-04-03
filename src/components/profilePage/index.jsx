@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "../../pages/Profile";
 import data from "../../posts.json";
 
-export default class ProfilePage extends React.Component {
+export class ProfilePage extends React.Component {
   state = {
     posts: data,
     isLoading: false,

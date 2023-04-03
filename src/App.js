@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/navbar/Navbar";
-import ProfilePage from "./components/profilePage/ProfilePage";
-import Home from "./pages/Home";
-import MyProfile from "./pages/MyProfile";
+import { Navbar } from "./components/navbar";
+import { ProfilePage } from "./components/profilePage";
+import { Home } from "./pages/Home";
+import { MyProfile } from "./pages/MyProfile";
 import "./styles/main.css";
 
 function App() {

@@ -1,9 +1,7 @@
-import Post from "../post/Post";
+import {Post} from "../post";
 import "./style.css";
 
-const Posts = (props) => {
-  const { posts = [] } = props;
-
+export const Posts = ({ posts = [] }) => {
   return (
     <div className="posts-container">
       {posts.length ? (
@@ -15,4 +13,3 @@ const Posts = (props) => {
   );
 };
 
-export default Posts;

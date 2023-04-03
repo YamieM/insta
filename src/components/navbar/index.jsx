@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import logo from "./logo-header.svg";
+import logo from "../../img/logo-header.svg";
 
 import "./style.css";
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <nav>
       <div className="navbar-container">
@@ -24,4 +24,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
