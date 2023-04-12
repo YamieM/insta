@@ -1,6 +1,6 @@
-import User from "../components/user/User";
+import {User} from "../components/user";
 
-const MyProfile = () => {
+export const MyProfile = () => {
   return (
     <div className="my_profile-container">
       <User
@@ -20,4 +20,3 @@ const MyProfile = () => {
   );
 };
 
-export default MyProfile;

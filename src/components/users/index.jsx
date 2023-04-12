@@ -1,8 +1,7 @@
-import User from "../user/User";
+import { User } from "../user";
 import "./style.scss";
 
-const Users = (props) => {
-  const { posts = [] } = props;
+export const Users = ({ posts = [] }) => {
   return (
     <div className="users-container">
       {posts.map((post) => (
@@ -17,4 +16,3 @@ const Users = (props) => {
   );
 };
 
-export default Users;

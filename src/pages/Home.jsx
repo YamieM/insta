@@ -1,6 +1,6 @@
-import Feed from "../components/feed/Feed";
-const Home = () => {
+import { Feed } from "../components/feed";
+
+export const Home = () => {
   return <Feed />;
 };
 
-export default Home;
